@@ -28,7 +28,7 @@ body {
     cursor: pointer;
 }
 
-.seat:hover:active {
+.seat:active {
     border: 1px solid rgb(98, 170, 160);
 }
 
