@@ -1,0 +1,55 @@
+*, 
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;    
+}
+
+.container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.seat {
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+
+    background-color: rgb(101, 223, 196);
+}
+
+.seat:hover {
+    cursor: pointer;
+}
+
+.seat:hover:active {
+    border: 1px solid rgb(98, 170, 160);
+}
+
+.line {
+    display: flex;
+    flex-flow: row nowrap;
+
+    margin: 0 20px;
+}
+
+.place {
+    width: 200px;
+    min-height: 50px;
+
+    margin-top: 20px;
+    border-radius: 10px;
+
+    background-color: rgb(189, 187, 99);
+}
+
+.place__seat-info {
+    margin: 20px;
+    text-align: center;
+}
